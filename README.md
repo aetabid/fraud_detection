@@ -49,4 +49,4 @@ Matplotlib, Seaborn
 
 ## Authors
 - Ayman Tabidi — github.com/aetabid
-- Utku Seyithanoğlu
+- Utku Seyithanoğlu — github.com/utkuseyithanoglu
