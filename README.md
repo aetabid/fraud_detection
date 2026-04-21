@@ -4,6 +4,8 @@
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange)
 ![Status](https://img.shields.io/badge/Status-Complete-green)
+![SQL](https://img.shields.io/badge/SQL-SQLite-blue)
+![Excel](https://img.shields.io/badge/Excel-Analysis-green)
 
 ## Overview
 A collaborative data science project analyzing the 1999 Czech banking dataset 
@@ -75,8 +77,7 @@ clustering and ensemble methods.
 - GridSearchCV hyperparameter tuning
 - XGBoost and Random Forest comparison
 
-## Dataset
-[1999 Czech Banking Dataset](https://sorry.vse.cz/~berka/challenge/pkdd.htm) — 
+## Dataset 
 real financial transaction data including:
 - 1,056,320 transactions
 - 4,500 unique accounts
