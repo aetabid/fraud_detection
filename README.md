@@ -85,7 +85,7 @@ real financial transaction data including:
 
 ## Tech Stack
 `Python` `Pandas` `NumPy` `Scikit-learn` `XGBoost` `Imbalanced-learn` 
-`Matplotlib` `Seaborn`
+`Matplotlib` `Seaborn` `SQL` `SQLite` `Excel`
 
 ## How to Run
 ```bash
