@@ -23,6 +23,31 @@ patterns to flag at-risk accounts.
 Predicts whether a bank account will default on a loan using time-series 
 behavioral features engineered from 1 million+ transaction records.
 
+## Business Intelligence Dashboard
+
+### Loan Amount by Default Status (Excel Analysis)
+![Loan Summary Chart](loan_summary_chart.png)
+
+**Key Insight:** Defaulted loans (Status D) carry significantly higher 
+average loan amounts (249K CZK) compared to fully paid loans (Status A) 
+at 91K CZK — nearly 3x higher. This suggests loan amount is a strong 
+predictor of default risk.
+
+## SQL Analysis
+The following SQL query was used to generate the business summary:
+
+```sql
+SELECT 
+    status,
+    COUNT(*) as total_loans,
+    ROUND(AVG(amount), 2) as avg_loan_amount,
+    ROUND(AVG(duration), 1) as avg_duration_months,
+    ROUND(AVG(payments), 2) as avg_monthly_payment
+FROM loans
+GROUP BY status
+ORDER BY total_loans DESC
+```
+
 **Key Finding:** Balance volatility and erratic spending behavior are 
 stronger predictors of loan default than average spending amount alone.
 
