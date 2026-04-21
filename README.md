@@ -26,7 +26,7 @@ behavioral features engineered from 1 million+ transaction records.
 ## Business Intelligence Dashboard
 
 ### Loan Amount by Default Status (Excel Analysis)
-![Loan Summary Chart](loan_summary_chart.png)
+![Loan Summary Chart](Ayman_folder/loan_summary_chart.png)
 
 **Key Insight:** Defaulted loans (Status D) carry significantly higher 
 average loan amounts (249K CZK) compared to fully paid loans (Status A) 
